@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(test_cpp_best_pr_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)
